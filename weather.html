@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Try: New York, London, or Tokyo">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div class="city-buttons">
+            <button class="city-button active" data-city="New York">New York</button>
+            <button class="city-button" data-city="London">London</button>
+            <button class="city-button" data-city="Tokyo">Tokyo</button>
+        </div>
+
+        <div class="weather-display">
+            <div class="temperature">72°F</div>
+            <div class="condition">Partly Cloudy</div>
+            
+            <div class="weather-details">
+                <div class="detail-card">
+                    <div class="detail-label">Feels Like</div>
+                    <div class="detail-value">74°F</div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-label">Humidity</div>
+                    <div class="detail-value">65%</div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-label">Wind Speed</div>
+                    <div class="detail-value">8 mph</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <script src="weather.js"></script>   
+</body>
+</html>
